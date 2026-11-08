@@ -1,8 +1,10 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-xgboost
-ucimlrepo
+# Direct library versions used for the saved experiment results.
+pandas==3.1.0
+numpy==2.5.4
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.9.1
+xgboost==3.4.1
+ucimlrepo==0.0.7
+# Notebook interface (not needed when running main.py alone).
 jupyter
