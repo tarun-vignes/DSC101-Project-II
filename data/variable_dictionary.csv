@@ -1,0 +1,25 @@
+name,role,type,demographic,description,units,missing_values
+Grade,Target,Categorical,,"Glioma grade class information (0 = ""LGG""; 1 = ""GBM"") ",N/A,no
+Gender,Feature,Categorical,Gender,"Gender (0 = ""male""; 1 = ""female"")",N/A,no
+Age_at_diagnosis,Feature,Continuous,Age,Age at diagnosis with the calculated number of days,years,no
+Race,Feature,Categorical,Race,"Race  (0 = ""white"";  1 = ""black or african American"";  2 = ""asian"";  3 = ""american indian or alaska native"")",N/A,no
+IDH1,Feature,Categorical,,isocitrate dehydrogenase (NADP(+))1 (0 = NOT_MUTATED; 1= MUTATED),N/A,no
+TP53,Feature,Categorical,,tumor protein p53 (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+ATRX,Feature,Categorical,,ATRX chromatin remodeler (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+PTEN,Feature,Categorical,,phosphatase and tensin homolog (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+EGFR,Feature,Categorical,,epidermal growth factor receptor (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+CIC,Feature,Categorical,,capicua transcriptional repressor (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+MUC16,Feature,Categorical,,"mucin 16, cell surface associated (0 = NOT_MUTATED; 1 = MUTATED)",N/A,no
+PIK3CA,Feature,Categorical,,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha (0 = NOT_MUTATED; 1 = MUTATED)",N/A,no
+NF1,Feature,Categorical,,neurofibromin 1 (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+PIK3R1,Feature,Categorical,,phosphoinositide-3-kinase regulatory subunit 1 (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+FUBP1,Feature,Categorical,,far upstream element binding protein 1 (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+RB1,Feature,Categorical,,RB transcriptional corepressor 1 (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+NOTCH1,Feature,Categorical,,notch receptor 1 (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+BCOR,Feature,Categorical,,BCL6 corepressor (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+CSMD3,Feature,Categorical,,CUB and Sushi multiple domains 3 (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+SMARCA4,Feature,Categorical,,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4 (0 = NOT_MUTATED; 1 = MUTATED)",N/A,no
+GRIN2A,Feature,Categorical,,glutamate ionotropic receptor NMDA type subunit 2A (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+IDH2,Feature,Categorical,,isocitrate dehydrogenase (NADP(+)) 2 (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+FAT4,Feature,Categorical,,FAT atypical cadherin 4 (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
+PDGFRA,Feature,Categorical,,platelet-derived growth factor receptor alpha (0 = NOT_MUTATED; 1 = MUTATED),N/A,no
